@@ -1,4 +1,4 @@
-Konu Adı: PHP'de Oturum Yönetimi #33
+Konu Adı: PHP'de Oturum Yönetimi #38
 
 Youtube Kanalımız: BMDersleri
 
