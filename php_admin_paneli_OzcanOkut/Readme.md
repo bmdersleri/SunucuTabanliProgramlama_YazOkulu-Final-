@@ -6,7 +6,7 @@ Bağlantı: https://www.youtube.com/BMDersleri​​
 
 Github Adresimiz: https://github.com/bmdersleri
 
-Konu ile ilgili Youtube Video Linki: 
+Konu ile ilgili Youtube Video Linki: https://www.youtube.com/watch?v=dEsyDT9N008
 
 Hazırlayan: Özcan Okut
 
