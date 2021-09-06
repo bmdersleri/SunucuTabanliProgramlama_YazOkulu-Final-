@@ -16,4 +16,3 @@ Github Adresimiz: https://github.com/bmdersleri
 
 Hazırlayan : Şeymanur Gökmen
 
-Moderatör : Sedanur POLATER
