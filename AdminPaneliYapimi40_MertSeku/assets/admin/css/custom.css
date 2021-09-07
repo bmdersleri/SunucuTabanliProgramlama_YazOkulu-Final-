@@ -1,0 +1,64 @@
+span.img {
+	margin: 10px;
+	border: 1px solid var(--indigo);
+	display: block;
+	float: left;
+}
+
+span.img .delete {
+	background: var(--indigo);
+	display: block;
+	text-align: center;
+	padding: 5px;
+	color: #fff;
+	width: 100%;
+	cursor: pointer;
+	transition: 300ms;
+}
+
+span.img .delete:hover {
+	background: var(--red);
+	opacity: .7;
+}
+
+.error {
+	color: red;
+	padding: 10px;
+}
+.loading {
+	width: 100%;
+	height: 30px;
+	background: #6610f285;
+	text-align: center;
+	font-size: 25px;
+	color: #fff;
+	position: relative;
+	display: none;
+}
+.loading span {
+	width: 0%;
+	background: var(--indigo);
+	position: absolute;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+.upload-btn {
+	border: 2px dashed #ccc;
+	color: #999;
+	width: 200px;
+	height: 150px;
+	line-height: 150px;
+	margin: 10px 0 20px 0;
+	display: block;
+	text-align: center;
+	cursor: pointer;
+	transition: 300ms;
+}
+.upload-btn:hover {
+	color: var(--indigo);
+	border-color: var(--indigo)
+}
+#addimage {
+	display: none;
+}
