@@ -1,0 +1,612 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+.fiyatAraligi {
+    color: black;
+!important;
+}
+
+.bgColorGray {
+    background-color: darkgray;
+}
+
+.ui-autocomplete {
+    z-index: 99;
+}
+
+.sepet a:link {
+    text-decoration: none;
+}
+
+/* visited link */
+.sepet a:visited {
+    text-decoration: none;
+}
+
+/* mouse over link */
+.sepet a:hover {
+    text-decoration: none;
+}
+
+/* selected link */
+.sepet a:active {
+    text-decoration: none;
+    color: black;
+!important;
+}
+
+.standart a:link {
+    text-decoration: none;
+    color: black;
+!important;
+}
+
+/* visited link */
+.standart a:visited {
+    text-decoration: none;
+    color: black;
+!important;
+}
+
+/* mouse over link */
+.standart a:hover {
+    text-decoration: none;
+    color: black;
+!important;
+}
+
+/* selected link */
+.standart a:active {
+    text-decoration: none;
+    color: black;
+!important;
+}
+
+.standartMenu a:link {
+    text-decoration: none;
+    color: white;
+!important;
+}
+
+/* visited link */
+.standartMenu a:visited {
+    text-decoration: none;
+    color: white;
+!important;
+}
+
+/* mouse over link */
+.standartMenu a:hover {
+    text-decoration: none;
+    color: white;
+!important;
+}
+
+/* selected link */
+.standartMenu a:active {
+    text-decoration: none;
+    color: white;
+!important;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.yaziBoyutu15 {
+    font-size: 17px;
+}
+
+.yesil {
+    color: #439d4a;
+}
+
+.ustuCizili {
+    text-decoration: line-through;
+}
+
+.yaziBoyutu16 {
+    font-size: 16px;
+}
+
+.yaziBoyutu13 {
+    font-size: 13px;
+}
+
+
+.yaziBoyutu17 {
+    font-size: 17px;
+}
+
+.yaziBoyutu25 {
+    font-size: 25px;
+}
+
+.yaziBoyutu20 {
+    font-size: 20px;
+}
+
+.sagaYasla {
+    text-align: right;
+}
+
+.sepetRenk {
+    color: #959595;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mt50 {
+    margin-top: 50px;
+}
+
+body {
+    /*background-color: rgba(245, 245, 245, 0.81);*/
+}
+
+.mt40 {
+    margin-top: 40px;
+}
+
+.mt25 {
+    margin-top: 25px;
+}
+
+.mt-10 {
+    margin-top: -10px;
+}
+
+.ml50 {
+    margin-left: 75px;
+}
+
+.ml40 {
+    margin-left: 40px;
+}
+
+.firsatStyle {
+    font-size: 30px;
+}
+
+.balsamiqBold {
+    font-family: "Open Sans";
+}
+
+.oneCikan {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.indirimOncesi {
+    text-decoration: line-through;
+    font-size: 15px;
+}
+
+.indirimOncesiDetay {
+    text-decoration: line-through;
+    font-size: 20px;
+}
+
+.normalFiyat {
+
+}
+
+.indirimSonraki {
+    color: #439d4a;
+    font-size: 20px;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.ml38 {
+    margin-left: 38px;
+}
+
+.ml-12 {
+    margin-left: -12px;
+}
+
+.h20 {
+    height: 20px;
+}
+
+.fs20 {
+    font-size: 20px;
+}
+
+.header-bg-color {
+    background-color: #037ad0;
+}
+
+.navbar-bg-color {
+    background-color: #006eb6;
+}
+
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+
+    .navbar .nav-item:hover .nav-link {
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+    }
+}
+
+.solMenu {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.secenek.radio {
+    cursor: pointer
+}
+
+.secenek.radio input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    pointer-events: none
+}
+
+.secenek.radio span {
+    padding: 2px 11px;
+    margin-right: 3px;
+    border: 1px solid #006eb6;
+    display: inline-block;
+    color: #006eb6;
+    border-radius: 3px;
+    text-transform: uppercase
+}
+
+.secenek.radio input:checked + span {
+    border-color: #006eb6;
+    background-color: #006eb6;
+    color: #fff
+}
+
+.box {
+    width: 200px;
+    height: 300px;
+    position: relative;
+    border: 1px solid #bbb;
+    background: #eee;
+    float: left;
+    margin: 20px;
+}
+
+.ribbon {
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    z-index: 10;
+    overflow: hidden;
+    width: 93px;
+    height: 93px;
+    text-align: right;
+}
+
+.ribbon span {
+    font-size: 0.8rem;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    line-height: 32px;
+    transform: rotate(45deg);
+    width: 125px;
+    display: block;
+    background: #79a70a;
+    background: linear-gradient(#9bc90d 0%, #79a70a 100%);
+    box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 17px;
+/ / change this, if no border right: - 29 px;
+/ / change this, if no border
+}
+
+.ribbon span::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    z-index: -1;
+    border-left: 3px solid #79A70A;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #79A70A;
+}
+
+.ribbon span::after {
+    content: '';
+    position: absolute;
+    right: 0%;
+    top: 100%;
+    z-index: -1;
+    border-right: 3px solid #79A70A;
+    border-left: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #79A70A;
+}
+
+.red span {
+    background: linear-gradient(#f70505 0%, #8f0808 100%);
+}
+
+.red span::before {
+    border-left-color: #8f0808;
+    border-top-color: #8f0808;
+}
+
+.red span::after {
+    border-right-color: #8f0808;
+    border-top-color: #8f0808;
+}
+
+.blue span {
+    background: linear-gradient(#2989d8 0%, #1e5799 100%);
+}
+
+.blue span::before {
+    border-left-color: #1e5799;
+    border-top-color: #1e5799;
+}
+
+.blue span::after {
+    border-right-color: #1e5799;
+    border-top-color: #1e5799;
+}
+
+.foo {
+    clear: both;
+}
+
+.bar {
+    content: "";
+    left: 0px;
+    top: 100%;
+    z-index: -1;
+    border-left: 3px solid #79a70a;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #79a70a;
+}
+
+.baz {
+    font-size: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    line-height: 2em;
+    transform: rotate(45deg);
+    width: 100px;
+    display: block;
+    background: #79a70a;
+    background: linear-gradient(#9bc90d 0%, #79a70a 100%);
+    box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 100px;
+    left: 1000px;
+}
+
+.dynamic-tabs {
+    width: 100%;
+    float: left;
+}
+
+.dynamic-tabs-container {
+    position: relative;
+}
+
+.dynamic-tabs-container .dynamic-tabs {
+    padding-right: 50px;
+}
+
+.dynamic-tabs-container .tabs-dropdown {
+    position: absolute;
+    right: 0;
+    margin-right: 0 !important;
+}
+
+.dynamic-tabs-container .tabs-dropdown.navbar-nav {
+    margin: 0 !important;
+}
+
+.dynamic-tabs-container .tabs-dropdown .dropdown-toggle {
+    position: relative;
+    display: block;
+}
+
+@media only screen and (max-width: 767px) {
+    .dynamic-tabs-container .tabs-dropdown .dropdown-menu {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        bottom: 20px;
+        left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        overflow-y: scroll;
+    }
+
+    .dynamic-tabs-container .tabs-dropdown .dropdown-menu li a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .dynamic-tab {
+        width: 100%;
+    }
+}
+
+.fade {
+    opacity: 0;
+    -webkit-transition: opacity .15s linear;
+    -o-transition: opacity .15s linear;
+    transition: opacity .15s linear
+}
+
+.fade.in {
+    opacity: 1
+}
+
+
+.nav-pills > li {
+    float: left
+}
+
+.nav-pills > li > a {
+    border-radius: 4px
+}
+
+.nav-pills > li + li {
+    margin-left: 2px
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover {
+    color: #fff;
+    background-color: #337ab7
+}
+
+
+.t-products {
+    background-image: linear-gradient(to right top, #5629c0, #5625cb, #5620d5, #551ae0, #5412eb);
+    color: #fff;
+    border-radius: 3px
+}
+
+.processor {
+    background-color: #fff;
+    margin-top: 5px;
+    border-bottom: 1px solid #eee
+}
+
+.brand {
+    background-color: #fff;
+    border-bottom: 1px solid #eee
+}
+
+.type {
+    background-color: #fff
+}
+
+.product {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about span {
+}
+
+.checkout .card{
+    padding: 0;
+    border-right: 1px solid #ddd;
+}
+
+/*
+.cart-button button {
+    font-size: 12px;
+    color: #fff;
+    height: 38px
+}
+
+.cart-button button:focus,
+button:active {
+    font-size: 12px;
+    color: #fff;
+    box-shadow: none
+}*/
+
+.product_fav i {
+    line-height: 40px;
+    color: #5629c0;
+    font-size: 15px
+}
+
+.product_fav {
+    display: inline-block;
+    width: 36px;
+    height: 39px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 11%;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 3px;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease
+}
+
+.product_fav:hover {
+    background: #5629c0;
+}
+
+.product_fav:hover i {
+    color: #fff
+}
+
+.about {
+    margin-top: 12px
+}
+
+.off {
+    margin-left: -35px;
+    position: absolute;
+    left: 55%;
+    top: 6%;
+    text-align: center;
+    height: 30px;
+    line-height: 8px;
+    border-radius: 5px;
+    font-size: 13px;
+    align-items: center;
+    justify-content: center;
+    color: #fff
+}
+
+
+#custCarousel .carousel-indicators {
+    position: static;
+    margin-top: 20px
+}
+
+#custCarousel .carousel-indicators > li {
+    width: 100px
+}
+
+#custCarousel .carousel-indicators li img {
+    display: block;
+    opacity: 0.5
+}
+
+#custCarousel .carousel-indicators li.active img {
+    opacity: 1
+}
+
+#custCarousel .carousel-indicators li:hover img {
+    opacity: 0.75
+}
+
+.carousel-item img {
+    width: 80%
+}
