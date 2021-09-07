@@ -1,0 +1,10 @@
+Options -indexes
+RewriteEngine On
+RewriteBase /adminsite/
+RewriteRule ^kurumsal/(.*)$ index.php?sayfa=kurumsal&seflink=$1 [NC]
+RewriteRule ^hizmetler$ index.php?sayfa=hizmetler [NC]
+RewriteRule ^projeler$ index.php?sayfa=projeler  [NC]
+RewriteRule ^urunler$ index.php?sayfa=urunler[NC]
+RewriteRule ^iletisim$ index.php?sayfa=iletisim [NC]
+RewriteRule ^hizmet-detay/(.*)$ index.php?sayfa=hizmet-detay&seflink=$1 [NC]
+ 
