@@ -18,7 +18,7 @@ Yönetim panellerine, “admin-panel” veya “dashboard” da denilmektedir.
 
 Yönetim paneline de sitenize girer gibi web tarayıcınızdan girilir ve genellikle, site adresinin sonuna 
 bir / işareti ve sonrasında yönetim panelinin adı yazılarak girilir. Yani şablon, 
-“www.siteadi.com/yonetimpaneliadi” şeklindedir. Yönetim panellerinin adı tamamen paneli yazan 
+"www . siteadi . com/yonetimpaneliadi" şeklindedir. Yönetim panellerinin adı tamamen paneli yazan 
 kişinin tercihine bağlıdır. Ama genellikle yönetim paneli tasarlayan yazılımcılar, yönetim panellerine,
  “admin”, “yönetim-paneli” gibi isimler verirler. Web tarayıcınızda yönetim panelinin yolunu yazarak 
 giriş yaptığınızda, sizi bir form karşılar. Bu formda, sizden kullanıcı adı ve şifre bilgileri istenir. 
@@ -30,7 +30,7 @@ Youtube Kanalımız: BMDersleri
 
 Bağlantı: https://www.youtube.com/bmdersleri
 
-Konu ile ilgili Youtube Video Linki : 
+Konu ile ilgili Youtube Video Linki : https://youtu.be/O1sxXEAIS3M
 
 Kısa Bağlantı: https://bit.ly/32k9MnJ
 
