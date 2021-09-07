@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1e446d59-1a5d-48a1-9ee7-1bdcd60b0050" name="atiye" url="http://localhost/yönetim Paneli">
+        <fileTransfer mountedRoot="C:\localhost\htdocs\yönetim Paneli" accessType="MOUNT" port="0" />
+      </webServer>
+      <webServer id="e7647177-2616-455e-aff7-11fe76dc655f" name="yönetimpaneli" url="http://localhost/yönetimpaneli">
+        <fileTransfer mountedRoot="C:\localhost\htdocs\yönetim Paneli" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>
