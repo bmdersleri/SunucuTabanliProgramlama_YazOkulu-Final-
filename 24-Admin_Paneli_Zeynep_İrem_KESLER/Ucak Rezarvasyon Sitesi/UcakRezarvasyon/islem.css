@@ -1,0 +1,195 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+body .box-wrapper {
+    position: relative;
+    margin-top: 50px;
+    width: 300px;
+    height: 284px;
+    animation: rotate-box 3.2s infinite;
+}
+body .box-wrapper .box-front, body .box-wrapper .box-back {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 30px;
+}
+body .box-wrapper .box-front {
+    position: fixed;
+    background: #44a5f3;
+    overflow: hidden;
+}
+body .box-wrapper .box-front .check {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: transparent;
+    transform: rotate(225deg);
+}
+body .box-wrapper .box-front .check::before {
+    content: '';
+    display: block;
+    position: relative;
+    margin-top: 75px;
+    margin-left: 85px;
+    border: solid transparent;
+    border-right-width: 0;
+    border-top-width: 0;
+    animation: check-mark-animation 3.2s infinite;
+}
+body .box-wrapper .box-front .check::after {
+    content: '';
+    display: block;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 85px;
+    background: rgba(0, 0, 0, .1);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .3) 0%, rgba(0, 0, 0, .1) 12%, rgba(0, 0, 0, 0) 77%, rgba(0, 0, 0, 0) 100%);
+    width: 198px;
+    height: 155px;
+    animation: check-m-shadow 3.2s infinite;
+}
+body .box-wrapper .box-back {
+    position: absolute;
+    background: #1977d1;
+    animation: move-back-box 3.2s infinite;
+    overflow: hidden;
+    z-index: -1;
+}
+body .box-wrapper .box-back::before {
+    content: '';
+    display: block;
+    position: absolute;
+    -webkit-transform: rotate(225deg);
+    transform: rotate(225deg) translate(-53px, 76px);
+    background: rgba(0, 0, 0, .1);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .2) 0%, rgba(0, 0, 0, 0) 100%);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 45px;
+    animation: front-box-shadow 3.2s infinite;
+}
+@keyframes rotate-box {
+    0% {
+        transform: rotate(0) translateX(0);
+        width: 300px;
+   }
+    15.5% {
+        transform: rotate(90deg) translateX(-150px);
+        width: 347px;
+   }
+    18.5% {
+        transform: rotate(90deg) translateX(-150px);
+   }
+    22% {
+        transform: rotate(90deg) translateX(70px);
+   }
+    32% {
+        transform: rotate(90deg) translateX(0);
+        animation-timing-function: ease-out;
+   }
+    100% {
+        transform: rotate(90deg) translateX(0);
+        width: 347px;
+   }
+}
+@keyframes move-back-box {
+    0% {
+        transform: translate(0);
+   }
+    22% {
+        transform: translate(0);
+   }
+    45% {
+        transform: translate(-50px, -50px);
+        animation-timing-function: ease-out;
+   }
+    100% {
+        transform: translate(-50px, -50px);
+   }
+}
+@keyframes check-mark-animation {
+    0% {
+        width: 0;
+        height: 0;
+   }
+    21.665% {
+        height: 0;
+        border-bottom-width: 0;
+        border-left-width: 0;
+   }
+    21.666% {
+        border-bottom-width: 30px;
+        border-left-width: 30px;
+        border-color: #fff;
+        height: 100px;
+   }
+    22% {
+        width: 0;
+        animation-timing-function: ease-out;
+   }
+    45% {
+        width: 198px;
+        animation-timing-function: ease-out;
+   }
+    100% {
+        width: 198px;
+        height: 100px;
+        border-bottom-width: 30px;
+        border-left-width: 30px;
+        border-color: #fff;
+   }
+}
+@keyframes check-m-shadow {
+    0% {
+        width: 0;
+        height: 0;
+   }
+    22% {
+        width: 0;
+        height: 0;
+        animation-timing-function: ease-out;
+   }
+    45% {
+        width: 198px;
+        height: 155px;
+        animation-timing-function: ease-out;
+   }
+    100% {
+        width: 198px;
+        height: 155px;
+   }
+}
+@keyframes front-box-shadow {
+    0% {
+        visibility: hidden;
+   }
+    21.9999% {
+        visibility: hidden;
+   }
+    22% {
+        visibility: visible;
+   }
+    100% {
+        visibility: visible;
+   }
+}
+
+h1{
+    margin-left: 75px;
+}
