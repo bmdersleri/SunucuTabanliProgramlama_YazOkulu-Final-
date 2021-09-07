@@ -1,0 +1,165 @@
+header {
+	position: relative;
+	z-index: 5;
+	transition: 300ms;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+	font-family: 'Lato', sans-serif;
+}
+
+header .navbar {
+	background-color: transparent;
+	padding: 0;
+	top: -1px;
+}
+
+header .navbar-light .navbar-brand {
+	padding: 20px 0;
+}
+
+header .navbar-light .navbar-brand img {
+	height: 30px;
+	text-align: center;
+}
+
+header .navbar-light .white {
+	display: none;
+}
+
+header .navbar-light .navbar-nav .nav-link,
+header .navbar-nav li a:hover,
+header .navbar-light .navbar-nav .nav-link.active
+{
+	color: #fff;
+	text-transform: uppercase;
+	position: relative;
+	padding: 0;
+	margin: 0 .8em;
+}
+
+header .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #fff;
+}
+
+header .navbar-light .navbar-nav .nav-link:before,
+header .navbar-light .navbar-nav .nav-link:before {
+	content: '';
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	height: .5px;
+	width: 0;
+	background: #fff;
+	transition: 250ms ease-in;
+}
+
+header .navbar-light .navbar-nav .nav-link:focus:before,
+header .navbar-light .navbar-nav .nav-link:hover:before {
+	width: 100%;
+}
+
+.swiper-slide-active .parallax-bg {
+	animation: pulse 10s;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+	}
+	100% {
+		transform: scale(1.1);
+	}
+}
+
+header .languages {
+	float: left;
+	color: #fff;
+	padding: 3px 0;
+	margin-left: 30px;
+	cursor: pointer;
+	position: relative;
+}
+
+header .languages svg {
+	margin-right: 5px;
+}
+header .languages ul {
+	position: absolute;
+	left: -5px;
+	top: 28px;
+	background: rgba(0,0,0,0.5);
+	border-radius: 1px solid #ccc;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+	color: white;
+	list-style: none;
+	border-radius: 3px;
+	display: none;
+	opacity: 0;
+	padding: 0;
+}
+
+header .languages:hover ul {
+	display: block;
+	opacity: 1;
+}
+
+header .languages ul li {
+	padding: 3px 20px 3px 10px;
+	transition: 300ms;
+}
+header .languages ul li:hover {
+	padding-left: 13px;
+}
+
+header .social {
+	font-size: 15px;
+}
+
+header .social li a {
+	width: 26px;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	color: #eee;
+	display: inline-block;
+	position: relative;
+	transition: 1s background ease-out, 300ms color;
+}
+
+
+header .social li a::before,header .head .social li a::after {
+	content: '';
+	position: absolute;
+	width: .5px;
+	height: 0;
+	top: 0;
+	left: 0;
+	background: #2e2e2e;
+	transition: 300ms height;
+}
+header .social li a::after {
+	left: auto;
+	top: auto;
+	right: 0;
+	bottom: 0;
+}
+
+header .social li a:hover::before,header .head .social li a:hover::after {
+	height: 100%;
+}
+
+.swiper-button-next, .swiper-button-prev {
+	color: #fff;
+	padding: 10px;
+	font-weight: 600;
+	font-size: 10px;
+	width: 40px;
+	height: 40px;
+	border: 2px solid #ddd;
+	line-height: 30px;
+	border-radius: 50%;
+	outline: 0;
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+	font-size: 15px;
+}
