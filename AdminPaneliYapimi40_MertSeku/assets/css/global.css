@@ -1,0 +1,56 @@
+:root {
+ --main-color: #e31d1a
+}
+
+body {
+	font-size: 14px;
+	/* font-family: 'Context SSi', sans-serif; */
+	font-family: 'Roboto';
+	overflow-x: hidden;
+}
+
+pre {
+	font: unset;
+	font-size: 1em;
+	white-space: pre-wrap;
+}
+
+a.main:hover {
+	color: #e31d1a;
+}
+
+a:hover {
+	color: currentColor;
+}
+
+.sthetics-bg {
+	background-color: #e31d1a!important;
+}
+
+.sthetics-bg-hover:hover {
+	background-color: #e31d1a;
+	opacity: .8;
+}
+
+.sthetics-border {
+	border-color: #e31d1a;
+}
+
+.sthetics-border-hover:hover {
+	border-color: #e31d1a;
+}
+
+.sthetics-color {
+	color: #e31d1a;
+}
+
+.sthetics-color-hover:hover {
+	color: #e31d1a;
+}
+
+.btn {
+	box-shadow: none!important;
+	padding: .5em;
+	text-transform: uppercase;
+	letter-spacing: .5px
+}

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;500;700&display=swap');
+
+@import 'global.css';
+
+@import '../plugin/contextssi/font.css';
+
+@import 'slider.css';
+
+@import 'our-works.css';
+
+@import 'footer.css';
+
+@import 'header.css';
