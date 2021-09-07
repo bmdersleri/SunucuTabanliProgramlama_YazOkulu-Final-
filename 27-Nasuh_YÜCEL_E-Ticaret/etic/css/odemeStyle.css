@@ -1,0 +1,155 @@
+
+.odemeEkrani .card {
+    margin: 2vh
+}
+
+.odemeEkrani .card-top {
+    padding: 0.7rem 5rem
+}
+
+.odemeEkrani .card-top a {
+    float: left;
+    margin-top: 0.7rem
+}
+
+#logo {
+    font-family: 'Dancing Script';
+    font-weight: bold;
+    font-size: 1.6rem
+}
+
+.odemeEkrani .card-body {
+    padding: 0 5rem 5rem 5rem;
+}
+
+
+.odemeEkrani .row {
+    margin: 0
+}
+
+.odemeEkrani .upper {
+    padding: 1rem 0;
+    justify-content: space-evenly
+}
+
+.odemeEkrani #three {
+    border-radius: 1rem;
+    width: 22px;
+    height: 22px;
+    margin-right: 3px;
+    border: 1px solid blue;
+    text-align: center;
+    display: inline-block
+}
+
+.odemeEkrani #payment {
+    margin: 0;
+    color: blue
+}
+
+.odemeEkrani .icons {
+    margin-left: auto
+}
+
+.odemeEkrani form span {
+    color: rgb(179, 179, 179)
+}
+
+.odemeEkrani form {
+    padding: 2vh 0
+}
+
+.odemeEkrani input {
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    padding: 1vh;
+    margin-bottom: 4vh;
+    outline: none;
+    width: 100%;
+    background-color: rgb(247, 247, 247)
+}
+
+.odemeEkrani input:focus::-webkit-input-placeholder {
+    color: transparent
+}
+
+.odemeEkrani .header {
+    font-size: 1.5rem
+}
+
+.odemeEkrani .left {
+    background-color: #ffffff;
+    padding: 2vh
+}
+
+.odemeEkrani .left img {
+    width: 2rem
+}
+
+.odemeEkrani .left .col-4 {
+    padding-left: 0
+}
+
+.odemeEkrani .right .item {
+    padding: 0.3rem 0
+}
+
+.odemeEkrani .right {
+    background-color: #ffffff;
+    padding: 2vh
+}
+
+.odemeEkrani .col-8 {
+    padding: 0 1vh
+}
+
+.odemeEkrani .lower {
+    line-height: 2
+}
+
+.odemeEkrani .btn {
+    background-color: rgb(23, 4, 189);
+    border-color: rgb(23, 4, 189);
+    color: white;
+    width: 100%;
+    font-size: 0.7rem;
+    margin: 4vh 0 1.5vh 0;
+    padding: 1.5vh;
+    border-radius: 0
+}
+
+.odemeEkrani .btn:focus {
+    box-shadow: none;
+    outline: none;
+    box-shadow: none;
+    color: white;
+    -webkit-box-shadow: none;
+    -webkit-user-select: none;
+    transition: none
+}
+
+.odemeEkrani .btn:hover {
+    color: white
+}
+
+.odemeEkrani a {
+    color: black
+}
+
+.odemeEkrani a:hover {
+    color: black;
+    text-decoration: none
+}
+
+.odemeEkrani input[type=checkbox] {
+    width: unset;
+    margin-bottom: unset
+}
+
+.odemeEkrani #cvv {
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.575), rgba(255, 255, 255, 0.541)), url("https://img.icons8.com/material-outlined/24/000000/help.png");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: center
+}
+
+.odemeEkrani #cvv:hover {}
