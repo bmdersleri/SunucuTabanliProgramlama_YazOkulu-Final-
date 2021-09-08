@@ -1,0 +1,20 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule .(css|js|jpg|jpeg|png|gif|ico|swf|bmp)$ - [nocase,redirect=404,last]
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule .(css|js|jpg|jpeg|png|gif|ico|swf|bmp)$ - [nocase,redirect=404,last]
+RewriteEngine on
+
+
+
+
+RewriteRule ^kategori-([0-9a-zA-Z-_]+)-([0-9]+)$  kategori.php?sef=$1&id=$2 [L,QSA]
+RewriteRule ^iletisim$ iletisim.php [NC,L]
+RewriteRule ^hakkimizda$ hakkimizda.php [NC,L]
+RewriteRule ^foto-galeri$ foto-galeri.php [NC,L]
+
+
+RewriteRule ^hesabim$ hesabim.php [NC,L]
+
+RewriteRule ^giris-kayit$ giris-kayit.php [NC,L]
