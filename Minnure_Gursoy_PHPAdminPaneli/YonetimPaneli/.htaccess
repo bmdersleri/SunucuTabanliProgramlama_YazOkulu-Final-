@@ -1,0 +1,17 @@
+Options -indexes
+RewriteEngine On
+RewriteBase /YonetimPaneli/
+RewriteRule ^liste/(.*)$ index.php?sayfa=liste&tablo=$1 [NC]
+RewriteRule ^yazılar/(.*)$ anasayfaindex.php?sayfa=yazılar&tablo=$1 [NC]
+RewriteRule ^seyahat/(.*)$ anasayfaindex.php?sayfa=seyahat&tablo=$1 [NC]
+RewriteRule ^modul-ekle$ index.php?sayfa=modul-ekle [NC]
+RewriteRule ^ekle/(.*)$ index.php?sayfa=ekle&tablo=$1 [NC]
+RewriteRule ^duzenle/(.*)/(.*)$ index.php?sayfa=duzenle&tablo=$1&ID=$2 [NC]
+RewriteRule ^sil/(.*)/(.*)$ index.php?sayfa=sil&tablo=$1&ID=$2 [NC]
+RewriteRule ^seo-ayarlari$ index.php?sayfa=seo-ayarlari [NC]
+RewriteRule ^iletisim-ayarlari$ index.php?sayfa=iletisim-ayarlari [NC]
+RewriteRule ^hakkımızda-ayarlari$ index.php?sayfa=hakkımızda-ayarlari [NC]
+RewriteRule ^giris-yap$ login.php [NC]
+RewriteRule ^cikis$ index.php?sayfa=cikis [NC]
+RewriteRule ^iletisim$ anasayfaindex.php?sayfa=iletisim [NC]
+RewriteRule ^hakkımızda$ anasayfaindex.php?sayfa=hakkımızda [NC]

@@ -1,0 +1,125 @@
+
+@media (max-width:991.98px) {
+    .padding {
+        padding: 1.5rem
+    }
+}
+
+@media (max-width:767.98px) {
+    .padding {
+        padding: 1rem
+    }
+}
+
+.padding {
+    padding: 5rem
+}
+
+
+p {
+    font-size: 0.875rem;
+    margin-bottom: .5rem;
+    line-height: 1.5rem
+}
+
+h4 {
+    line-height: .2 !important
+}
+
+.profile {
+    margin-top: 16px;
+    margin-left: 11px
+}
+
+.profile-pic {
+    width: 58px
+}
+
+.cust-name {
+    font-size: 18px
+}
+
+.cust-profession {
+    font-size: 10px
+}
+
+.items {
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 10px
+}
+
+.slick-slide {
+    margin: 10px
+}
+
+
+.off {
+    position: absolute;
+    left: 76%;
+    top: 3%;
+    width: 72px;
+    text-align: center;
+    height: 25px;
+    line-height: 8px;
+    border-radius: 4px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff
+}
+
+.thumbnail {
+    margin-top: 20px
+}
+
+.thumbnail img {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #eee;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 4px
+}
+
+.thumbnail img:hover {
+    border: 1px solid #00000059
+}
+
+.about {
+    margin-top: 20px
+}
+
+.product_fav i {
+    line-height: 40px;
+    color: #343a40;
+    font-size: 15px
+}
+
+.product_fav {
+    display: inline-block;
+    width: 36px;
+    height: 39px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 11%;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 3px;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease
+}
+
+.product_fav:hover {
+    background: #343a40
+}
+
+.product_fav:hover i {
+    color: #fff
+}
+
