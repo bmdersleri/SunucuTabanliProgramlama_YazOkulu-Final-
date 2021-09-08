@@ -1,0 +1,17 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule .(css|js|jpg|jpeg|png|gif|ico|swf|bmp)$ - [nocase,redirect=404,last]
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule .(css|js|jpg|jpeg|png|gif|ico|swf|bmp)$ - [nocase,redirect=404,last]
+RewriteEngine on
+
+
+
+
+RewriteRule ^blog-([0-9a-zA-Z-_]+)-([0-9]+)$  blog-detay.php?sef=$1&blog_id=$2 [L,QSA]
+RewriteRule ^iletisim$ iletisim.php [NC,L]
+RewriteRule ^hakkimizda$ hakkimizda.php [NC,L]
+RewriteRule ^galeri$ galeri.php [NC,L]
+RewriteRule ^ziyaretci-defteri$ ziyaretci-defteri.php [NC,L]
+
