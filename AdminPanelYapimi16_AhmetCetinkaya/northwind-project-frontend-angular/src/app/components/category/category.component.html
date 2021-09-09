@@ -1,0 +1,17 @@
+<ul class="list-group">
+  <li
+    class="list-group-item {{ isActive() }}"
+    (click)="setCurrentCategory()"
+    routerLink="/products/"
+  >
+    All
+  </li>
+  <li
+    *ngFor="let category of categories"
+    class="list-group-item {{ isActive(category) }}"
+    (click)="setCurrentCategory(category)"
+    routerLink="/products/category/{{ category.CategoryID }}"
+  >
+    {{ category.CategoryName }}
+  </li>
+</ul>
